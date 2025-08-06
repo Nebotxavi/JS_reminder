@@ -1,0 +1,137 @@
+:root {
+  --success-bg-default: #ecfdf5;
+  --success-default: #16a34a;
+
+  --error-bg-default: #fef2f2;
+  --error-default: #dc2626;
+
+  --warning-bg-default: #fffbeb;
+  --warning-default: #d97706;
+
+  --info-bg-default: #eff6ff;
+  --info-default: #2563eb;
+
+  --toast-color: #242424;
+}
+
+.tk-toast {
+  color: var(--toast-color);
+  border-radius: 16px;
+
+  min-width: min(320px, 90vw);
+  max-width: 480px;
+
+  padding: 0.1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.tk-toast__content {
+  flex: 1;
+}
+
+.tk-toast__title {
+  font-size: 1.2rem;
+}
+
+.tk-toast__message,
+.tk-toast__title {
+  margin: 0.6rem;
+}
+
+.tk-toast--success {
+  background-color: var(--toast-success-bg, var(--success-bg-default));
+  border: 1px solid var(--toast-success-border, var(--success-default));
+}
+
+.tk-toast--error {
+  background-color: var(--toast-error-bg, var(--error-bg-default));
+  border: 1px solid var(--toast-error-border, var(--error-default));
+}
+
+.tk-toast--warning {
+  background-color: var(--toast-warning-bg, var(--warning-bg-default));
+  border: 1px solid var(--toast-warning-border, var(--warning-default));
+}
+
+.tk-toast--info {
+  background-color: var(--toast-info-bg, var(--info-bg-default));
+  border: 1px solid var(--toast-info-border, var(--info-default));
+}
+
+.tk-toast__icon--success {
+  color: var(--toast-success-icon, var(--success-default));
+}
+
+.tk-toast__icon--error {
+  color: var(--toast-error-icon, var(--error-default));
+}
+
+.tk-toast__icon--warning {
+  color: var(--toast-warning-icon, var(--warning-default));
+}
+
+.tk-toast__icon--info {
+  color: var(--toast-info-icon, var(--info-default));
+}
+
+.tk-toast--bottom-right {
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+}
+
+.tk-toast--bottom-left {
+  position: fixed;
+  bottom: 1rem;
+  left: 1rem;
+}
+
+.tk-toast--top-right {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+}
+
+.tk-toast--top-left {
+  position: fixed;
+  top: 1rem;
+  left: 1rem;
+}
+
+@keyframes slideInFromRight {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.tk-toast--top-right,
+.tk-toast--bottom-right {
+  animation: slideInFromRight 0.4s ease-out forwards;
+}
+
+@keyframes slideInFromLeft {
+  from {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.tk-toast--top-left,
+.tk-toast--bottom-left {
+  animation: slideInFromLeft 0.4s ease-out forwards;
+}
