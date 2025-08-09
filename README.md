@@ -1,6 +1,6 @@
-# JavaScript, Node.js & React.js Practice Projects
+# JavaScript & React.js Practice Projects
 
-This repository contains a collection of small projects created to refresh skills in JavaScript, TypeScript, Node.js, and React. Each project is self-contained and focuses on a specific concept, tool, or library.
+This repository contains a collection of small projects created to refresh skills in JavaScript, TypeScript and React. Each project is self-contained and focuses on a specific concept, tool, or library.
 
 ## Goal
 
