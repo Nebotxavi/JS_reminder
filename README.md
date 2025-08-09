@@ -12,6 +12,10 @@ The goal of this repo is to have a dedicated place for these projects that serve
 
   A simple React toast notification package built as a practice project to learn creating reusable components and working with React portals.
 
+- UseSpinDelay
+
+  A custom hook for showing a spinner only if the loading state lasts longer than a specified delay.
+
 ---
 
 Feel free to explore each folder for source code and instructions.
