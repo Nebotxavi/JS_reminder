@@ -1,6 +1,6 @@
 # JavaScript & React.js Practice Projects
 
-This repository contains a collection of small projects created to refresh skills in JavaScript, TypeScript and React. Each project is self-contained and focuses on a specific concept, tool, or library.
+This repository contains a collection of small projects created to refresh skills in JavaScript, TypeScript, React and other frameworks. Each project is self-contained and focuses on a specific concept, tool, or library.
 
 ## Goal
 
@@ -12,9 +12,13 @@ The goal of this repo is to have a dedicated place for these projects that serve
 
   A simple React toast notification package built as a practice project to learn creating reusable components and working with React portals.
 
+  ![React](https://img.shields.io/badge/React-20232A?logo=react&logoColor=61DAFB) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)
+
 - UseSpinDelay
 
   A custom hook for showing a spinner only if the loading state lasts longer than a specified delay.
+
+  ![React](https://img.shields.io/badge/React-20232A?logo=react&logoColor=61DAFB) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)
 
 ---
 
