@@ -1,3 +1,6 @@
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+
 # Toast Kit
 
 A simple React toast notification package built as a practice project to learn creating reusable packages and using React portals.
